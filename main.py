@@ -9,16 +9,16 @@ bot = telebot.TeleBot("ВАШ API КЛЮЧ")
 updates = bot.get_updates()
 
 # Load sentences for horoscope
-with open("text/first.txt", "r", encoding="utf-8") as f1:
+with open("first.txt", "r", encoding="utf-8") as f1:
     first = f1.readlines()
 
-with open("text/second.txt", "r", encoding="utf-8") as f2:
+with open("second.txt", "r", encoding="utf-8") as f2:
     second = f2.readlines()
 
-with open("text/second_add.txt", "r", encoding="utf-8") as f2_add:
+with open("second_add.txt", "r", encoding="utf-8") as f2_add:
     second_add = f2_add.readlines()
 
-with open("text/third.txt", "r", encoding="utf-8") as f3:
+with open("third.txt", "r", encoding="utf-8") as f3:
     third = f3.readlines()
 
 
